@@ -2,6 +2,6 @@ require 'sinatra'
 
 get '/' do
 
- request['HTTP_USER_AGENT']
+  request.user_agent
 
 end
